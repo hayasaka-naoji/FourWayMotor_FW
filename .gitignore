@@ -1,0 +1,15 @@
+build/
+Debug/
+Release/
+*.o
+*.d
+*.su
+*.cyclo
+.mimosa/
+
+# Original vendor firmware and its derived disassembly stay local only.
+re/FourWay_Motor_STM32.hex
+re/fw.bin
+re/fw.bin.json
+re/listing.txt
+re/functions.json

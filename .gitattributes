@@ -1,0 +1,9 @@
+# Source files are normalised to LF in the repository.
+* text=auto
+
+# Keep firmware artifacts byte-exact (the Intel HEX input and the extracted
+# binary are part of the reverse-engineering record).
+*.bin binary
+*.hex binary
+*.elf binary
+*.o binary
